@@ -96,7 +96,7 @@ If you prefer full control, install and configure everything yourself.
 **1. Install dependencies**
 
 ```bash
-git clone https://github.com/HKUDS/DeepTutor.git
+git clone [https://github.com/HKUDS/DeepTutor.git](https://github.com/MeAkash77/NeuroTutor-AI-Adaptive-Multi-Agent-Learning-System.git)
 cd DeepTutor
 
 conda create -n deeptutor python=3.11 && conda activate deeptutor
@@ -153,7 +153,7 @@ Docker wraps the backend and frontend into a single container — no local Pytho
 **1. Configure environment variables** (required for both options)
 
 ```bash
-git clone https://github.com/HKUDS/DeepTutor.git
+git clone [https://github.com/HKUDS/DeepTutor.git](https://github.com/MeAkash77/NeuroTutor-AI-Adaptive-Multi-Agent-Learning-System.git)
 cd DeepTutor
 cp .env.example .env
 ```
@@ -374,7 +374,7 @@ Memory is shared across all features and all your TutorBots. The more you use De
 <img src="assets/figs/tutorbot-architecture.png" alt="TutorBot Architecture" width="800">
 </div>
 
-TutorBot is not a chatbot — it is a **persistent, multi-instance agent** built on [nanobot](https://github.com/HKUDS/nanobot). Each TutorBot runs its own agent loop with independent workspace, memory, and personality. Create a Socratic math tutor, a patient writing coach, and a rigorous research advisor — all running simultaneously, each evolving with you.
+TutorBot is not a chatbot — it is a **persistent, multi-instance agent** built on [nanobot](https://github.com/MeAkash77/NeuroTutor-AI-Adaptive-Multi-Agent-Learning-System). Each TutorBot runs its own agent loop with independent workspace, memory, and personality. Create a Socratic math tutor, a patient writing coach, and a rigorous research advisor — all running simultaneously, each evolving with you.
 
 <div align="center">
 <img src="assets/figs/tb.png" alt="TutorBot" width="800">
@@ -404,7 +404,7 @@ deeptutor bot list                  # See all your active tutors
 
 DeepTutor is fully CLI-native. Every capability, knowledge base, session, memory, and TutorBot is one command away — no browser required. The CLI serves both humans (with rich terminal rendering) and AI agents (with structured JSON output).
 
-Hand the [`SKILL.md`](SKILL.md) at the project root to any tool-using agent ([nanobot](https://github.com/HKUDS/nanobot), or any LLM with tool access), and it can configure and operate DeepTutor autonomously.
+Hand the [`SKILL.md`](SKILL.md) at the project root to any tool-using agent ([nanobot]([https://github.com/MeAkash77/NeuroTutor-AI-Adaptive-Multi-Agent-Learning-System.git], or any LLM with tool access), and it can configure and operate DeepTutor autonomously.
 
 **One-shot execution** — Run any capability directly from the terminal:
 
@@ -525,7 +525,7 @@ deeptutor session open <id>                         # Resume in REPL
 | 🔜 | **LightRAG Integration** — Integrate [LightRAG](https://github.com/HKUDS/LightRAG) as an advanced knowledge base engine |
 | 🔜 | **Documentation Site** — Comprehensive docs page with guides, API reference, and tutorials |
 
-> If you find DeepTutor useful, [give us a star](https://github.com/HKUDS/DeepTutor/stargazers) — it helps us keep going!
+> If you find DeepTutor useful, [give us a star]([[https://github.com/MeAkash77/NeuroTutor-AI-Adaptive-Multi-Agent-Learning-System](https://github.com/MeAkash77/NeuroTutor-AI-Adaptive-Multi-Agent-Learning-System)— it helps us keep going!
 
 ---
 
@@ -539,9 +539,6 @@ DeepTutor stands on the shoulders of outstanding open-source projects:
 | [**LlamaIndex**](https://github.com/run-llama/llama_index) | RAG pipeline and document indexing backbone |
 | [**ManimCat**](https://github.com/Wing900/ManimCat) | AI-driven math animation generation for Math Animator |
 
-**From the HKUDS ecosystem:**
-
-| [⚡ LightRAG](https://github.com/HKUDS/LightRAG) | [🤖 AutoAgent](https://github.com/HKUDS/AutoAgent) | [🔬 AI-Researcher](https://github.com/HKUDS/AI-Researcher) | [🧬 nanobot](https://github.com/HKUDS/nanobot) |
 |:---:|:---:|:---:|:---:|
 | Simple & Fast RAG | Zero-Code Agent Framework | Automated Research | Ultra-Lightweight AI Agent |
 
@@ -552,7 +549,7 @@ DeepTutor stands on the shoulders of outstanding open-source projects:
 
 We hope DeepTutor becomes a gift for the community. 🎁
 
-<a href="https://github.com/HKUDS/DeepTutor/graphs/contributors">
+<a href="https://github.com/MeAkash77/NeuroTutor-AI-Adaptive-Multi-Agent-Learning-System">
   <img src="https://contrib.rocks/image?repo=HKUDS/DeepTutor&max=999" alt="Contributors" />
 </a>
 
@@ -575,12 +572,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on setting up your develop
 </div>
 
 <div align="center">
-
-**[Data Intelligence Lab @ HKU](https://github.com/HKUDS)**
-
-[⭐ Star us](https://github.com/HKUDS/DeepTutor/stargazers) · [🐛 Report a bug](https://github.com/HKUDS/DeepTutor/issues) · [💬 Discussions](https://github.com/HKUDS/DeepTutor/discussions)
-
----
 
 Licensed under the [Apache License 2.0](LICENSE).
 
