@@ -71,7 +71,7 @@
 A **single interactive script** that walks you through everything: dependency installation, environment configuration, live connection testing, and launch. No manual `.env` editing needed.
 
 ```bash
-git clone https://github.com/HKUDS/DeepTutor.git
+git clone [https://github.com/HKUDS/DeepTutor.git](https://github.com/MeAkash77/NeuroTutor-AI-Adaptive-Multi-Agent-Learning-System.git)
 cd DeepTutor
 
 # Create a Python environment
